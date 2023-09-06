@@ -1,3 +1,4 @@
+
 .container {
   width: 70%;
   margin: auto;
@@ -10,9 +11,15 @@ img {
 }
 
 #title {
-  font-family: cursive;
-  font-size: x-large;
+  font-family: Phudu;
+  font-size: xx-large;
   text-align: center;
+  background-color: rgb(212, 237, 252);
+border: 1px solid black;
+margin:3%;
+padding: 1%;
+position: relative;
+right: 10px;
 }
 
 .card {
@@ -26,13 +33,13 @@ img {
 
 em {
   text-align: center;
-  font-weight: bold;
+  font-weight: bolder;
   display: block;
-  font-size: large;
+  font-size:larger;
 }
+
 .card p {
   display: inline;
- 
 }
 
 /* navbar styling */
