@@ -36,10 +36,16 @@ img {
 }
 
 /* navbar styling */
+
+body {
+    margin: 0%;
+}
+
 .menu {
     background-color: black;
     padding: 2em;
     margin: auto;
+    width: 100%;
 }
 
 .menu a {
@@ -52,7 +58,10 @@ img {
     background-color: rgb(16, 96, 176);
 }
 
+.menu a.active {
+    background-color: darkblue;
+}
 
-#ranking {
-    margin-left: 30px !important;
+#title {
+    padding: 1em;
 }
