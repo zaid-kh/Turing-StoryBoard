@@ -5,29 +5,54 @@
 }
 
 .Raw1 {
-    
+
     display: block
 }
+
 .Raw3 {
-    
+
     /* display: inline; */
 }
+
 img {
     width: 100%;
 }
 
 #title {
-font-family: cursive;
-font-size: x-large;
-text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    text-align: center;
 }
 
-.card{
+.card {
     display: block;
     float: left;
 
     width: 30%;
 }
-.card p{
+
+.card p {
     display: inline;
+}
+
+/* navbar styling */
+.menu {
+    background-color: black;
+    padding: 2em;
+    margin: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+
+.menu a:hover {
+    background-color: rgb(16, 96, 176);
+}
+
+
+#ranking {
+    margin-left: 30px !important;
 }

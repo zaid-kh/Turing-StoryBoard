@@ -5,24 +5,22 @@ body {
 }
 
 .menu {
-background-color: black;
-padding: 2em ;
-margin: auto;
-
+    background-color: black;
+    padding: 2em;
+    margin: auto;
 }
 
 .menu a {
-    text-decoration:none ;
+    text-decoration: none;
     color: white;
-padding: 1em;
-
+    padding: 1em;
 }
 
 .menu a:hover {
-background-color: rgb(16, 96, 176);
+    background-color: rgb(16, 96, 176);
 }
 
 
 #ranking {
-margin-left: 30px !important;
+    margin-left: 30px !important;
 }
