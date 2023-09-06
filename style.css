@@ -20,13 +20,15 @@ img {
   width: 30%;
   border: 1px solid black;
   margin: 2px;
-  padding: 3px;
+  padding: 0 10px;
+  height: 23vw;
 }
 
 em {
   text-align: center;
   font-weight: bold;
   display: block;
+  font-size: large;
 }
 .card p {
   display: inline;
