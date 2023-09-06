@@ -13,12 +13,21 @@
     /* display: inline; */
 }
 img {
-    width: 30%;
-    float: left;
+    width: 100%;
 }
 
 #title {
 font-family: cursive;
 font-size: x-large;
 text-align: center;
+}
+
+.card{
+    display: block;
+    float: left;
+
+    width: 30%;
+}
+.card p{
+    display: inline;
 }
