@@ -1,24 +1,20 @@
-
-
-
-body{
+main {
     padding: 0%;
     margin: 0%;
     text-align: center;
     font-family: 'PT Serif', serif;
-background-image: url(background.webp);
+    background-image: url(background.webp);
 }
 
 
 
-#form-container{
+#form-container {
     margin: auto;
     margin-top: 10vh;
     width: 40%;
-    background-color: rgb(42, 172, 189)
-;
-text-align: center;
-height: 80%;
+    background-color: rgb(42, 172, 189);
+    text-align: center;
+    height: 80%;
 
 
 }
@@ -32,30 +28,29 @@ height: 80%;
 
 .form-group input {
 
-height: 3vh ;
+    height: 3vh;
 
 }
 
 textarea {
-
     width: 367px;
     height: 100px;
     resize: none;
 
 }
+
 button {
-margin: auto !important;
-border-radius: 20px;
-border-width: px;
+    margin: auto !important;
+    border-radius: 20px;
+    border-width: px;
 
 }
 
 button:hover {
     background-color: rgb(122, 223, 236);
-cursor:pointer !important;
+    cursor: pointer !important;
 }
 
 option:hover {
-    background-color:rgb(122, 223, 236) ;
-
+    background-color: rgb(122, 223, 236);
 }
