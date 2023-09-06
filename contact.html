@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+      </style>
+
+    <link rel="stylesheet" href="contact.css".css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="form-container">
+        <h1>Contact Us</h1>
+        <p> If you have any question, please dont hesitate to contact us !</p>
+      <section class="form-group">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" />
+      </section>
+      <section class="form-group">
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" />
+      </section>
+      <section class="form-group">
+        <label for="Location">Location</label>
+        <input type="text" id=" Location" />
+      </section>
+
+      <section class="form-group">
+        <label for="gender">Gender :</label>
+        <input type="radio" id="Male" name="Gender" value="Male" />
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender" value="Female" />
+        <label for="Female">Female</label>
+      </section>
+      <section class="form-group">
+        <select name="Topic" id="Topic">
+            <option value="Investment Inquiry">Investment Inquiry</option>
+            <option value="Looking For Job">Looking For Job</option>
+        </select>
+      </section>
+      <section class="form-group">
+        <label for="text">Explain why you would like to contact us :</label>
+      <textarea id="text" name="firstname" ></textarea>
+      <button class="form-group"> SUBMIT</button>
+    </section>
+  </body>
+</html>
