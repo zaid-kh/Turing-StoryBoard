@@ -39,6 +39,7 @@ em {
 /* navbar styling */
 body {
   margin: 0%;
+  background-color: rgb(137, 211, 211);
 }
 
 .menu {
@@ -69,7 +70,6 @@ main {
   margin: 0%;
   text-align: center;
   font-family: 'PT Serif', serif;
-  background-image: url(background.webp);
 }
 
 
@@ -112,4 +112,28 @@ button:hover {
 
 option:hover {
   background-color: rgb(122, 223, 236);
+}
+
+/* Ranking style */
+
+#ranker-select {
+  padding: 1em;
+}
+
+#likeButton {
+  border-color: blue;
+}
+
+#dislikeButton {
+  border-color: red;
+}
+
+#likeButton:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+#dislikeButton:hover {
+  background-color: red;
+  color: aliceblue;
 }
