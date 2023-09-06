@@ -43,24 +43,103 @@ em {
 }
 
 /* navbar styling */
+body {
+  margin: 0%;
+  background-color: rgb(137, 211, 211);
+}
+
 .menu {
-    background-color: black;
-    padding: 2em;
-    margin: auto;
+  background-color: black;
+  padding: 2em;
+  margin: auto;
 }
 
 .menu a {
-    text-decoration: none;
-    color: white;
-    padding: 1em;
+  text-decoration: none;
+  color: white;
+  padding: 1em;
 }
 
 .menu a:hover {
-    background-color: rgb(16, 96, 176);
+  background-color: rgb(16, 96, 176);
 }
 
 
 #ranking {
-    margin-left: 30px !important;
+  margin-left: 30px !important;
 }
 
+/* contact us style */
+
+main {
+  padding: 0%;
+  margin: 0%;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+}
+
+
+
+#form-container {
+  margin: auto;
+  margin-top: 10vh;
+  width: 40%;
+  background-color: rgb(42, 172, 189);
+  text-align: center;
+  height: 80%;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.form-group input {
+  height: 3vh;
+}
+
+textarea {
+  width: 367px;
+  height: 100px;
+  resize: none;
+}
+
+button {
+  margin: auto !important;
+  border-radius: 20px;
+  border-width: px;
+}
+
+button:hover {
+  background-color: rgb(122, 223, 236);
+  cursor: pointer !important;
+}
+
+option:hover {
+  background-color: rgb(122, 223, 236);
+}
+
+/* Ranking style */
+
+#ranker-select {
+  padding: 1em;
+}
+
+#likeButton {
+  border-color: blue;
+}
+
+#dislikeButton {
+  border-color: red;
+}
+
+#likeButton:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+#dislikeButton:hover {
+  background-color: red;
+  color: aliceblue;
+}
