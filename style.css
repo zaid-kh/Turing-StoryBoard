@@ -16,10 +16,8 @@ img {
   text-align: center;
   background-color: rgb(212, 237, 252);
 border: 1px solid black;
-margin:3%;
+margin:1%;
 padding: 1%;
-position: relative;
-right: 10px;
 }
 
 .card {
@@ -45,7 +43,7 @@ em {
 /* navbar styling */
 body {
   margin: 0%;
-  background-color: rgb(137, 211, 211);
+  background-color: rgb(235, 247, 247);
 }
 
 .menu {
@@ -56,14 +54,21 @@ body {
 
 .menu a {
   text-decoration: none;
+  font-family: Phudu;
+  font-weight: lighter;
+  font-size: large;
   color: white;
   padding: 1em;
+
 }
 
 .menu a:hover {
   background-color: rgb(16, 96, 176);
 }
 
+#contact {
+  margin-left: 38px;
+}
 
 #ranking {
   margin-left: 30px !important;
@@ -77,8 +82,6 @@ main {
   text-align: center;
   font-family: 'PT Serif', serif;
 }
-
-
 
 #form-container {
   margin: auto;
@@ -123,15 +126,24 @@ option:hover {
 /* Ranking style */
 
 #ranker-select {
-  padding: 1em;
+  padding: 2em;
+}
+
+label {
+  font-size: large;
+  font-weight: bold;
 }
 
 #likeButton {
+width: 15%;
   border-color: blue;
+font-size: large;
 }
 
 #dislikeButton {
   border-color: red;
+  width: 15%;
+  font-size: large;
 }
 
 #likeButton:hover {
