@@ -24,9 +24,7 @@ padding: 1%;
   float: left;
   width: 30%;
   border: 1px solid black;
-  margin: 2px;
-  padding: 0 10px;
-  height: 23vw;
+  height: 26vw;
 }
 
 em {
@@ -34,16 +32,19 @@ em {
   font-weight: bolder;
   display: block;
   font-size:larger;
+  margin: 5% 0;
 }
 
 .card p {
-  display: inline;
+  /* display: inline; */
+  font-size:1vw;
+  margin: 0 3%;
 }
 
 /* navbar styling */
 body {
   margin: 0%;
-  background-color: rgb(235, 247, 247);
+  background-color: rgb(179, 239, 239);
 }
 
 .menu {
